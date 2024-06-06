@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+:root{
+    --bg-color:#f1f5fd;
+    --primary-color:#6f5de7;
+    --text-color:#828286;
+    --main-text-color:#333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #333333;
+}
+
+
+ /*navbar design start*/
+ .navbar-bg{
+    background-color: var(--bg-color);
+    padding:1.5rem ;
+    z-index: 999;
+    position: relative;
+ }
+ .navbar-brand{
+    font-size: 2rem;
+ }
+ .navbar li {
+    padding: 0 1rem;
+ }
+ .navbar li a {
+    font-size: 1rem;
+    font-weight: 500;
+ }
